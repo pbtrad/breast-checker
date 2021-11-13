@@ -136,3 +136,8 @@ REST_FRAMEWORK = {
       'rest_framework.authentication.TokenAuthentication',
     )
 }
+
+CELERY_BROKER_URL = 'redis://:pc8dabff59f958adf56a97ba75b23fe427207d689f6e165b7eb9031d0e5c337e8@ec2-34-255-54-73.eu-west-1.compute.amazonaws.com:24400'
+
+CELERY_ACCEPT_CONTENT = ['json']
+CELERY_TASK_SERIALIZER = 'json'

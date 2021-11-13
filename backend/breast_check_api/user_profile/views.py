@@ -58,10 +58,6 @@ class RegisterView(viewsets.ModelViewSet):
       return Response
 
 class UserCreate(APIView):
-    """ 
-    Creates the user. 
-    """
-
     def post(self, request, format='json'):
         serializer = UserSerializer(data=request.data)
         if serializer.is_valid():
