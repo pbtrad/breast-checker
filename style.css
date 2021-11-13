@@ -1,20 +1,25 @@
 body{
-    color-scheme: rgb(224, 223, 223);
+    background-image: url(images/bg.jpeg) ;
     height: 768px; 
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    font-family: 'Marcellus', serif;
+    font-family: 'Mulish', sans-serif;
 }
 
 .card.mb-3{
-    background-color: rgb(219, 218, 218);
     margin: 20px 20px;
     padding: 5px 5px;
+    background-color: transparent;
 }
 
-img{
-    max-height: 450px;
-    max-width: 450px;
-    align-items: center;
+.card-title{
+    font-family: 'Marcellus', serif;
+    color: whitesmoke;
+    font-size: 50px;
     text-align: center;
+    text-shadow: 2px 2px #2c2b2b;
+    align-items: baseline;
+    padding-top: 60px;
 }
