@@ -10,7 +10,8 @@ urlpatterns = [
     path('users/<int:pk>/', views.UserDetail.as_view()),
     path('comments/', views.CommentList.as_view()),
     path('comments/<int:pk>/', views.CommentDetail.as_view()),
-    path('register/', views.UserCreate.as_view()),
+    #path('register/', views.UserCreate.as_view()),
+    path('accounts/', views.UserCreate.as_view()),
 ]
 
 
