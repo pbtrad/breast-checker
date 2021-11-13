@@ -1,6 +1,5 @@
 body{
-    background-image: url(images/bg.jpeg);
-    background-color: #000000;
+    color-scheme: rgb(224, 223, 223);
     height: 768px; 
     background-position: center;
     background-repeat: no-repeat;
@@ -8,11 +7,14 @@ body{
 }
 
 .card.mb-3{
-    background-color: transparent;
+    background-color: rgb(219, 218, 218);
     margin: 20px 20px;
     padding: 5px 5px;
 }
 
-div#map {
-    min-height: 360px;
+img{
+    max-height: 450px;
+    max-width: 450px;
+    align-items: center;
+    text-align: center;
 }
