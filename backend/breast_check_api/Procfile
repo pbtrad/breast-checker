@@ -1,1 +1,1 @@
-web: gunicorn breast_check_api.wsgi
+web: gunicorn breast_check_api.wsgi:application
