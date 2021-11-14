@@ -12,8 +12,11 @@ https://docs.djangoproject.com/en/3.2/ref/settings/
 
 from pathlib import Path
 import environ
+<<<<<<< HEAD
 import os
 
+=======
+>>>>>>> 3f3edc4fe759645f82b7af01083c680279b682c3
 
 env = environ.Env()
 environ.Env.read_env()
@@ -31,12 +34,16 @@ SECRET_KEY = env('SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
+<<<<<<< HEAD
 ALLOWED_HOSTS = ['breast-check-api.herokuapp.com', '127.0.0.1']
 
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:3000",
     "http://127.0.0.1:3000"
 ]
+=======
+ALLOWED_HOSTS = []
+>>>>>>> 3f3edc4fe759645f82b7af01083c680279b682c3
 
 
 # Application definition
@@ -51,14 +58,21 @@ INSTALLED_APPS = [
     'rest_framework',
     'user_profile',
     'rest_framework.authtoken',
+<<<<<<< HEAD
     'corsheaders',
+=======
+>>>>>>> 3f3edc4fe759645f82b7af01083c680279b682c3
 ]
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
+<<<<<<< HEAD
     'whitenoise.middleware.WhiteNoiseMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'corsheaders.middleware.CorsMiddleware',
+=======
+    'django.contrib.sessions.middleware.SessionMiddleware',
+>>>>>>> 3f3edc4fe759645f82b7af01083c680279b682c3
     'django.middleware.common.CommonMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',
     'django.contrib.auth.middleware.AuthenticationMiddleware',
@@ -146,6 +160,7 @@ REST_FRAMEWORK = {
       'rest_framework.authentication.TokenAuthentication',
     )
 }
+<<<<<<< HEAD
 
 CELERY_BROKER_URL = 'redis://:pc8dabff59f958adf56a97ba75b23fe427207d689f6e165b7eb9031d0e5c337e8@ec2-34-255-54-73.eu-west-1.compute.amazonaws.com:24400'
 
@@ -161,3 +176,5 @@ EMAIL_USE_SSL = True
 
 
 
+=======
+>>>>>>> 3f3edc4fe759645f82b7af01083c680279b682c3
