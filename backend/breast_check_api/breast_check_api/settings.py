@@ -32,7 +32,7 @@ SECRET_KEY = env('SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['breast-check-api.herokuapp.com', '127.0.0.1']
+ALLOWED_HOSTS = ['breast-check-api.herokuapp.com', '127.0.0.1', 'localhost',]
 
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:3000",
@@ -58,6 +58,8 @@ INSTALLED_APPS = [
     'allauth',
     'allauth.account',
     'rest_auth.registration',
+    'allauth.socialaccount',
+    'allauth.socialaccount.providers.google',
 ]
 
 MIDDLEWARE = [
@@ -90,6 +92,8 @@ TEMPLATES = [
     },
 ]
 
+SITE_ID = 1
+
 WSGI_APPLICATION = 'breast_check_api.wsgi.application'
 
 
@@ -108,7 +112,10 @@ else:
         }
     }
 
-
+AUTHENTICATION_BACKENDS = [
+    'django.contrib.auth.backends.ModelBackend',
+    'allauth.account.auth_backends.AuthenticationBackend',
+]
 # Password validation
 # https://docs.djangoproject.com/en/3.2/ref/settings/#auth-password-validators
 
@@ -175,5 +182,6 @@ EMAIL_HOST_PASSWORD = os.environ.get('EMAIL_HOST_PASS')
 EMAIL_USE_TLS = False
 EMAIL_USE_SSL = True
 
+REST_USE_JWT = True
 
 
