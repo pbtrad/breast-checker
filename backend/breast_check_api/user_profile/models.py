@@ -7,11 +7,8 @@ class User_profile(models.Model):
     user = models.ForeignKey(User, models.CASCADE)
     name = models.CharField(max_length=100)
     email = models.EmailField(null=True, blank=True)
-<<<<<<< HEAD
     check_reminder = models.BooleanField(default=False)
 
-=======
->>>>>>> 3f3edc4fe759645f82b7af01083c680279b682c3
 
     def __str__(self):
         return "%s - %s" % (self.name, self.email, )
