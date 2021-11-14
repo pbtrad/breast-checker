@@ -39,7 +39,7 @@ CORS_ALLOWED_ORIGINS = [
     "http://127.0.0.1:3000"
 ]
 
-
+SITE_ID = 1
 # Application definition
 
 INSTALLED_APPS = [
@@ -49,6 +49,10 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'django.contrib.sites',
+    'allauth',
+    'allauth.account',
+    'rest_auth.registration',
     'rest_framework',
     'user_profile',
     'rest_framework.authtoken',
