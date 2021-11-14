@@ -1,11 +1,11 @@
 import React from 'react';
 
-function HeroStyles() {
+function Login() {
     return (
         <div>
-            This is Footer
+            This is Login Page
         </div>
     )
 }
 
-export default HeroStyles;
+export default Login;
