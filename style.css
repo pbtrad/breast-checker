@@ -1,11 +1,9 @@
 body{
-    background-image: url(images/bg.jpeg) ;
-    height: 768px; 
-    background-position: center;
+    background-image: url(images/women.jpeg) ;
+    height: 100%; 
+    background-position: left;
     background-repeat: no-repeat;
     background-size: cover;
-    font-family: 'Marcellus', serif;
-    font-family: 'Mulish', sans-serif;
 }
 
 .card.mb-3{
@@ -18,9 +16,16 @@ body{
 .card-title{
     font-family: 'Marcellus', serif;
     color: whitesmoke;
-    font-size: 50px;
-    text-align: center;
+    font-size: 45px;
     text-shadow: 2px 2px #2c2b2b;
-    align-items: baseline;
-    padding-top: 60px;
+    padding-top: 150px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+.form-inline{
+    padding-top: 30px;
+    text-align: center;
+    font-family: 'Marcellus', serif;
+    padding-bottom: 30px;
 }
