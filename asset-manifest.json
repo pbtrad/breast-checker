@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/pbtrad/breast-checker/tree/main/frontend/static/css/main.85adc97f.chunk.css",
+    "main.js": "/pbtrad/breast-checker/tree/main/frontend/static/js/main.b5d09d88.chunk.js",
+    "main.js.map": "/pbtrad/breast-checker/tree/main/frontend/static/js/main.b5d09d88.chunk.js.map",
+    "runtime-main.js": "/pbtrad/breast-checker/tree/main/frontend/static/js/runtime-main.41991b9f.js",
+    "runtime-main.js.map": "/pbtrad/breast-checker/tree/main/frontend/static/js/runtime-main.41991b9f.js.map",
+    "static/css/2.1dd1e755.chunk.css": "/pbtrad/breast-checker/tree/main/frontend/static/css/2.1dd1e755.chunk.css",
+    "static/js/2.dd230a72.chunk.js": "/pbtrad/breast-checker/tree/main/frontend/static/js/2.dd230a72.chunk.js",
+    "static/js/2.dd230a72.chunk.js.map": "/pbtrad/breast-checker/tree/main/frontend/static/js/2.dd230a72.chunk.js.map",
+    "index.html": "/pbtrad/breast-checker/tree/main/frontend/index.html",
+    "static/css/2.1dd1e755.chunk.css.map": "/pbtrad/breast-checker/tree/main/frontend/static/css/2.1dd1e755.chunk.css.map",
+    "static/css/main.85adc97f.chunk.css.map": "/pbtrad/breast-checker/tree/main/frontend/static/css/main.85adc97f.chunk.css.map",
+    "static/js/2.dd230a72.chunk.js.LICENSE.txt": "/pbtrad/breast-checker/tree/main/frontend/static/js/2.dd230a72.chunk.js.LICENSE.txt",
+    "static/media/style.scss": "/pbtrad/breast-checker/tree/main/frontend/static/media/women.07b03385.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.41991b9f.js",
+    "static/css/2.1dd1e755.chunk.css",
+    "static/js/2.dd230a72.chunk.js",
+    "static/css/main.85adc97f.chunk.css",
+    "static/js/main.b5d09d88.chunk.js"
+  ]
+}
