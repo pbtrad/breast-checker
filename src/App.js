@@ -11,6 +11,9 @@ import ProfilePage from './pages/profile';
 import TrekkerPage from './pages/Trekker';
 import Navigation from './components/Header/Navigation';
 import HomePage from './pages/Home';
+import CheckCompletePage from './pages/CheckComplete';
+import FurtherActionPage from './pages/FurtherAction';
+import GuidePage from './pages/Guide';
 
 
 function App() {
@@ -26,6 +29,9 @@ function App() {
         <Route path='/manage' element={<ManagePage/>}/>
         <Route path='/profile' element={<ProfilePage/>}/>
         <Route path='/trekker' element={<TrekkerPage/>}/>
+        <Route path='/checkcomplete' element={<CheckCompletePage/>}/>
+        <Route path='/furtheraction' element={<FurtherActionPage/>}/>
+        <Route path='/guide' element={<GuidePage/>}/>
       </Route>
       </Routes>
     </>
