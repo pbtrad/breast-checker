@@ -1,12 +1,11 @@
-import React from 'react';
-import Calendar from '../components/Calendar/Calendar';
+import React from 'react'
 
-const CheckPage = () => {
-        return (
-		<div>
-            <Calendar />
+function TrekkerPage() {
+    return (
+        <div>
+            TrekkerPage Page
         </div>
-	);
-};
+    )
+}
 
-export default CheckPage;
+export default TrekkerPage

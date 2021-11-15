@@ -1,7 +1,7 @@
 .Container {
-    /* text-align: center; */
+    padding: 20px;
     min-height: 100vh;
-    background-color: #282c34;
+    /* background-color: #282c34; */
     color: #ea18b2;
 }
 
@@ -19,5 +19,41 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 20px;
-    margin: 2rem;
 }
+
+
+/*Tutorial styling start */
+
+#step2,
+#step3,
+#step4,
+#step5 {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+#step1 {
+    min-height: 80vh;
+    display: flex;
+    align-items: center;
+}
+
+.text-btn {
+    min-height: 100%;
+}
+
+.instructions {
+    min-height: 144px;
+}
+
+.next {
+    margin-top: 90px;
+}
+
+.next a {
+    width: 100px;
+}
+
+
+/* Tutorial styling start */
