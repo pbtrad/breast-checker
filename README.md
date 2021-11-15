@@ -37,6 +37,8 @@ Frameworks, Libraries and Programs Used:
 * Balsamiq
 * Figma
 * Fontawesome
+## Backend
+||The backend is a django rest framework using dj-rest-auth for authentication, celery for automated emails. Celery is served by cache using heroku redis.
 ## Testing
 ## Deployment
 ## Features
