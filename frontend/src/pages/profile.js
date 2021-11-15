@@ -1,12 +1,11 @@
 import React from 'react';
-import Calendar from '../components/Calendar/Calendar';
 
-const CheckPage = () => {
+const ProfilePage = () => {
         return (
 		<div>
-            <Calendar />
+           Profile
         </div>
 	);
 };
 
-export default CheckPage;
+export default ProfilePage;

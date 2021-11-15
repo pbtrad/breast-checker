@@ -1,12 +1,14 @@
 import React from 'react';
 import Action from '../components/Action/Action';
+import Navigation from '../components/Header/Navigation';
 
-const Home = () => {
+const ActionPage = () => {
     return (
       <>
-            <Action />
+      <Navigation />
+      <Action />
       </>
     );
 };
 
-export default Home;
+export default ActionPage;
