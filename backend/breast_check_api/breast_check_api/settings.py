@@ -57,9 +57,10 @@ INSTALLED_APPS = [
     'django.contrib.sites',
     'allauth',
     'allauth.account',
-    'rest_auth.registration',
     'allauth.socialaccount',
     'allauth.socialaccount.providers.google',
+    'dj_rest_auth',
+    'dj_rest_auth.registration',
 ]
 
 MIDDLEWARE = [
@@ -167,7 +168,11 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 REST_FRAMEWORK = {
   'DEFAULT_AUTHENTICATION_CLASSES': (
       'rest_framework.authentication.TokenAuthentication',
-    )
+      'rest_framework.authentication.SessionAuthentication',
+    ),
+    'DEFAULT_PERMISSION_CLASSES': [
+    'rest_framework.permissions.AllowAny',
+]
 }
 
 CELERY_BROKER_URL = 'redis://:pc8dabff59f958adf56a97ba75b23fe427207d689f6e165b7eb9031d0e5c337e8@ec2-34-255-54-73.eu-west-1.compute.amazonaws.com:24400'
@@ -183,5 +188,7 @@ EMAIL_USE_TLS = False
 EMAIL_USE_SSL = True
 
 REST_USE_JWT = True
+
+
 
 
