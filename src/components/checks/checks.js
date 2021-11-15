@@ -1,6 +1,6 @@
 import React from 'react';
 
-function Trekker() {
+function Checks() {
     return (
         <div>
             This is Calendar Page.
@@ -8,4 +8,4 @@ function Trekker() {
     )
 }
 
-export default Trekker;
+export default Checks;
