@@ -1,6 +1,6 @@
 import React from 'react'
 
-function Check_complete() {
+function CheckComplete() {
     return (
       <div class="container">
        {/* Welcome message */}
@@ -22,15 +22,15 @@ function Check_complete() {
         <a class="btn text-center border px-4 m-2" href="furtheraction">
           Further Action</a>
         {/* Tutorial */}
-        <a class="btn text-center border px-4 m-2" href="#">
+        <a class="btn text-center border px-4 m-2" href="guide">
           Repeat the Tutorial
           </a>
         {/* Profile */}
-        <a class="btn text-center border px-4 m-2" href="profile.html">
+        <a class="btn text-center border px-4 m-2" href="profile">
           Profile</a>
       </div>
     </div>
     )
 }
 
-export default Check_complete;
+export default CheckComplete;

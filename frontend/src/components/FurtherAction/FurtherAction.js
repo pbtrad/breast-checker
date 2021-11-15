@@ -1,6 +1,6 @@
 import React from 'react'
 
-function Check_complete() {
+function FurtherAction() {
     return (
       <div class="container">
         {/* Important information */}
@@ -102,4 +102,4 @@ function Check_complete() {
     )
 }
 
-export default Check_complete;
+export default FurtherAction;
