@@ -180,6 +180,8 @@ CELERY_BROKER_URL = 'redis://:pc8dabff59f958adf56a97ba75b23fe427207d689f6e165b7e
 CELERY_ACCEPT_CONTENT = ['json']
 CELERY_TASK_SERIALIZER = 'json'
 
+EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
+
 EMAIL_HOST = 'smtp.gmail.com'
 EMAIL_PORT = 587
 EMAIL_HOST_USER = os.environ.get('EMAIL_HOST_USER')
@@ -188,6 +190,7 @@ EMAIL_USE_TLS = False
 EMAIL_USE_SSL = True
 
 REST_USE_JWT = True
+JWT_AUTH_COOKIE = 'jwt-auth'
 
 
 
