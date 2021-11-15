@@ -1,10 +1,10 @@
 import React from 'react';
-import Form from '../components/Form/Form';
+import Register from '../components/Forms/Register';
 
 const RegisterPage = () => {
         return (
 		<>
-			<Form />
+			<Register />
 		</>
 	);
 };
