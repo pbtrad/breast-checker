@@ -1,6 +1,7 @@
 import React from 'react';
 import { Outlet } from 'react-router';
 import Footer from '../Footer/Footer';
+import { NavLink } from "react-router-dom";
 
 function Navigation() {
     return (
@@ -18,7 +19,7 @@ function Navigation() {
         </form>
         </ul>
         
-        <li className="nav-item active">
+        <li className="nav-item active text-dark">
             <a className="nav-link" href="/">Home <span className="sr-only">(current)</span></a>
           </li>
           <li className="nav-item">
@@ -26,7 +27,7 @@ function Navigation() {
           </li>
     
           <li className="nav-item">
-            <a className="nav-link disabled" href="http://localhost:3000/login">Login</a>
+            <a className="nav-link disabled" href="/login">Login</a>
           </li>
       </div>
     </nav>
