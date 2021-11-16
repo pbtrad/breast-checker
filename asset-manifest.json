@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/pbtrad/breast-checker/tree/main/frontend/static/css/main.85adc97f.chunk.css",
-    "main.js": "/pbtrad/breast-checker/tree/main/frontend/static/js/main.b5d09d88.chunk.js",
-    "main.js.map": "/pbtrad/breast-checker/tree/main/frontend/static/js/main.b5d09d88.chunk.js.map",
+    "main.js": "/pbtrad/breast-checker/tree/main/frontend/static/js/main.20e5960a.chunk.js",
+    "main.js.map": "/pbtrad/breast-checker/tree/main/frontend/static/js/main.20e5960a.chunk.js.map",
     "runtime-main.js": "/pbtrad/breast-checker/tree/main/frontend/static/js/runtime-main.41991b9f.js",
     "runtime-main.js.map": "/pbtrad/breast-checker/tree/main/frontend/static/js/runtime-main.41991b9f.js.map",
     "static/css/2.1dd1e755.chunk.css": "/pbtrad/breast-checker/tree/main/frontend/static/css/2.1dd1e755.chunk.css",
@@ -19,6 +19,6 @@
     "static/css/2.1dd1e755.chunk.css",
     "static/js/2.dd230a72.chunk.js",
     "static/css/main.85adc97f.chunk.css",
-    "static/js/main.b5d09d88.chunk.js"
+    "static/js/main.20e5960a.chunk.js"
   ]
 }
